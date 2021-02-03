@@ -1,0 +1,23 @@
+procs in queue:
+pname: kernel_process, pid: 1024, ppid: 1024, priority: 0, state: RUNNABLE
+pname: Santa, pid: 1025, ppid: 1024, priority: 1, state: EMBRYO
+pname: Dasher, pid: 1026, ppid: 1025, priority: 2, state: EMBRYO
+pname: Dancer, pid: 1032, ppid: 1026, priority: 4, state: EMBRYO
+pname: Prancer, pid: 1028, ppid: 1025, priority: 6, state: EMBRYO
+pname: Vixen, pid: 1027, ppid: 1026, priority: 8, state: EMBRYO
+pname: Comet, pid: 1033, ppid: 1025, priority: 10, state: EMBRYO
+pname: Cupid, pid: 1031, ppid: 1026, priority: 12, state: EMBRYO
+pname: Donner, pid: 1029, ppid: 1025, priority: 14, state: EMBRYO
+pname: Blitzen, pid: 1030, ppid: 1026, priority: 16, state: EMBRYO
+
+procs in queue:
+pname: kernel_process, pid: 1024, ppid: 1024, priority: 0, state: RUNNABLE
+pname: Santa, pid: 1025, ppid: 1024, priority: 1, state: EMBRYO
+pname: Dasher, pid: 1026, ppid: 1025, priority: 2, state: EMBRYO
+pname: Dancer, pid: 1032, ppid: 1026, priority: 4, state: EMBRYO
+pname: Prancer, pid: 1028, ppid: 1025, priority: 6, state: EMBRYO
+pname: Vixen, pid: 1027, ppid: 1026, priority: 8, state: EMBRYO
+pname: Comet, pid: 1033, ppid: 1025, priority: 10, state: EMBRYO
+pname: Cupid, pid: 1031, ppid: 1026, priority: 12, state: EMBRYO
+pname: Rudolph, pid: 1034, ppid: 1025, priority: 15, state: EMBRYO
+pname: Blitzen, pid: 1030, ppid: 1026, priority: 16, state: EMBRYO

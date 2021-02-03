@@ -1,0 +1,13 @@
+fork Santa 1 kernel_process
+fork Dasher 2 Santa
+fork Vixen 8 Dasher
+fork Prancer 6 Santa
+fork Donner 14 Santa
+fork Blitzen 16 Dasher
+fork Cupid 12 Dasher
+fork Dancer 4 Dasher
+fork Comet 10 Santa
+printprocs
+kill Donner
+fork Rudolph 15 Santa
+printprocs
