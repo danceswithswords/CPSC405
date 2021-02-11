@@ -59,6 +59,19 @@ int main(int argc, char *argv[]) {
     }
     if (opts.using_f) {
         printf("Printing file: %s\n", opts.filename);
+        FILE *ftp = fopen(opts.filename, "r");
+        char c;
+        if(ftp == NULL) {
+            printf("Nope. Cannot open file \n");
+            exit(0);
+        }
+        c = fgetc(ftp);
+        while (c != EOF) {
+            printf("%c", c);
+            c = fgetc(ftp);
+        }
+        fclose(ftp);
+        
     }
     printf("my_kill pid: %d\n", getpid()); //get my_kill's pid
     int status = kill(pid, SIGINT);
